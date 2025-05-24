@@ -1,18 +1,18 @@
 # Ocean Challenge 2025
 
-## LLM使用
+## LLM
 
 * [Google Gemini API](https://aistudio.google.com/)
 
-## 圖形空間
+## Image Hosting
 
 * [imgbb](https://imgbb.com/)
 
-## 聲音空間
+## Voice Hosting
 
 * [vocaroo](https://vocaroo.com/)
 
-## 資料庫
+## Database
 
 * [firebase](https://firebase.google.com/)
 * [supabase](https://supabase.com/)
