@@ -53,3 +53,20 @@
 
 * [leaflet.js](https://leafletjs.com/)
 
+## 範例網站
+
+[https://allergicalligator.github.io/ocean_challenge_2025](https://allergicalligator.github.io/ocean_challenge_2025)
+
+[https://allergicalligator.github.io/ocean_challenge_2025/update.html](https://allergicalligator.github.io/ocean_challenge_2025/update.html)
+
+
+```
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read: if true;     // 允許所有人讀取
+      allow write: if false;   // 禁止所有人寫入
+    }
+  }
+}
+```
