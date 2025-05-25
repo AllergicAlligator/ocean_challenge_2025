@@ -49,3 +49,7 @@
 * [firebase](https://firebase.google.com/)
 * [supabase](https://supabase.com/)
 
+**WebGIS**
+
+* [leaflet.js](https://leafletjs.com/)
+
