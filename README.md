@@ -1,5 +1,7 @@
 # Ocean Challenge 2025
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MTMq_1SaROM?si=ILM3f7QkBKrRBJ5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 在本次競賽中，我們提出了一個AI生態保育追蹤系統，這個系統為一套結合行動裝置與生成式人工智慧（LLM）的生態保育與導覽解決方案，協助民眾及生態專員共同參與環境守護與自然教育。使用者可透過手機拍照並上傳附帶GPS與時間資訊的照片，系統將利用LLM分析圖片內容，自動產生說明與判斷處理等級，再上傳至雲端資料庫。生態保育人員可即時查看待處理事項，彷彿一份共用的待辦清單（To-do List），加速生態修復行動。而在生態導覽方面，使用者亦可上傳景點照片與描述，系統將擴充文字說明與內容，供未來遊客依據位置自動顯示導覽資訊，提升旅遊體驗與環境意識。本系統不僅促進社會參與，也建立了一套低門檻、可擴充的生態資料與多媒體導覽平台。
 
 ## 團隊基本資料
@@ -55,13 +57,13 @@
 
 ## 範例網站
 
-[https://allergicalligator.github.io/ocean_challenge_2025](https://allergicalligator.github.io/ocean_challenge_2025)
+[工作項目列表](https://allergicalligator.github.io/ocean_challenge_2025)
 
-[https://allergicalligator.github.io/ocean_challenge_2025/update.html](https://allergicalligator.github.io/ocean_challenge_2025/update.html)
+[工作項目管理](https://allergicalligator.github.io/ocean_challenge_2025/update.html)
 
-Ocean Challenge 2025 競賽期間，firesotre 的 database 的存取權限會設成唯讀。
+Ocean Challenge 2025 競賽期間，firesotre 的 database 的存取權限會設成唯讀，使用者將無法從上面的工作項目管理頁面修改 status。
 
-設定檔如下：
+firestore的設定檔如下：
 
 ```
 service cloud.firestore {
