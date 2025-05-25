@@ -59,6 +59,9 @@
 
 [https://allergicalligator.github.io/ocean_challenge_2025/update.html](https://allergicalligator.github.io/ocean_challenge_2025/update.html)
 
+Ocean Challenge 2025 競賽期間，firesotre 的 database 的存取權限會設成唯讀。
+
+設定檔如下：
 
 ```
 service cloud.firestore {
